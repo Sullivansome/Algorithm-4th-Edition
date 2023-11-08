@@ -20,5 +20,5 @@ public class Exercise3 {
             StdOut.println("Not equal");
         }
     }
-    
+
 }
