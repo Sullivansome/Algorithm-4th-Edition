@@ -3,7 +3,7 @@
 target/
 
 # VS Code
-.vscode/
+# .vscode/
 
 # MacOS
 .DS_Store

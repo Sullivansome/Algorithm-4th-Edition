@@ -2,7 +2,7 @@
 
 ```
 brew install maven
-``
+```
 
 1. Download the algs4.jar:
 Obtain the algs4.jar from the official source or your preferred location.
@@ -67,3 +67,7 @@ mvn exec:java -Dexec.mainClass="your.main.Class" -Dexec.args="arg1 arg2 arg3"
 ```
 
 Replace your.main.Class with your actual main class and arg1 arg2 arg3 with the actual arguments you want to pass.
+
+6. Create tasks.json in vscode
+Open the Command Palette (via the View menu or by right-clicking) and type in and select Tasks: 
+Configure task then select Create `tasks.json` from template.

@@ -9,13 +9,12 @@ public class Exercise9 {
         StdOut.println("Expected: 100000");
     }
 
-
-    private static String intToBinary(int N) {
-        String result = "";
-        for (int n = N; n > 0; n /= 2) {
-            result = (n % 2) + result;
+    private static String intToBinary(int n) {
+        StringBuilder result = new StringBuilder();
+        for (int i = n; i > 0; i /= 2) {
+            result.insert(0, i % 2);
         }
-        return result;
+        return result.toString();
     }
     
 }

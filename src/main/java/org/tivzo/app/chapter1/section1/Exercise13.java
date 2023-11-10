@@ -15,10 +15,11 @@ public class Exercise13 {
 
 
     private static void transpose(int[][] array) {
-        int M = array[0].length, N = array.length; // Structure should be inverted
-        int[][] result = new int[M][N];
-        for (int i = 0; i < M; i++) {
-            for (int j = 0; j < N; j++) {
+        int m = array[0].length;
+        int n = array.length; // Structure should be inverted
+        int[][] result = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
                 result[i][j] = array[j][i];
             }
         }
