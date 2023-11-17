@@ -3,7 +3,7 @@ package org.tivzo.app.chapter1.section1;
 import edu.princeton.cs.algs4.StdOut;
 import java.util.Arrays;
 
-public class Exercose22 {
+public class Exercise22 {
 
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
